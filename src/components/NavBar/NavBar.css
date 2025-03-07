@@ -1,0 +1,72 @@
+.navbar {
+    background-color: #333; /* Dark background for the navbar */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    height: 60px;
+  }
+  
+  /* Flex container for left and right sections */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center;
+    width: 100%; /* Full width for proper alignment */
+  }
+  
+  /* Left-aligned section */
+  .navbar-left {
+    margin-right: auto; /* Push right section away */
+  }
+  
+  .navbar-left a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-left a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Right-aligned section */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spacing between elements */
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-right a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .navbar-right p {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  /* Special styling for "Sign Out" link */
+  .navbar-right a:last-child {
+    color: #ff4d4d;
+  }
+  
+  .navbar-right a:last-child:hover {
+    background-color: #cc0000;
+  }
