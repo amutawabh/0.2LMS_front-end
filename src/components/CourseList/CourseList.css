@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+    
+    .course-list-container {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .course-list-header {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      padding: 20px;
+      font-size: 2.5rem;
+      border-radius: 8px;
+      margin-bottom: 40px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+    
+    .course-link {
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .course-link:hover .course-card {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .course-card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .course-title {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .course-instructor {
+      font-size: 1rem;
+      color: #777;
+      margin-bottom: 15px;
+    }
+    
+    .course-description {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.5;
+    }
+    
+    .no-courses {
+      font-size: 1.2rem;
+      color: #666;
+      margin-top: 40px;
+    }
